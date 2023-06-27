@@ -21,6 +21,6 @@ public class Aplicacao {
         }
         */
     
-        Chamada chamada = new Chamada("Bom dia Pessoal", "301");
+        Chamada chamada = new Chamada("Bom dia Pessoal\n", "301");
     }
 }

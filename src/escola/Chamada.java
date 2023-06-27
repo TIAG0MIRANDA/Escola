@@ -1,5 +1,6 @@
 package escola; //Pacote
 
+import pessoas.Aluno;
 public class Chamada { // class
 
     //atributo
@@ -15,6 +16,10 @@ public class Chamada { // class
 
         //atribuir valor
         Turma = turma;
+
+        //metodo
+        selecionarTurma();
+        selecionarAlunos();
     }
 
     public void selecionarTurma(){
@@ -23,7 +28,10 @@ public class Chamada { // class
     }
 
     private void selecionarAlunos(){
-        
+
+        Aluno aluno = new Aluno();
+        System.out.println(aluno.alunosTurmma(Turma));
+         
     }
 
 
