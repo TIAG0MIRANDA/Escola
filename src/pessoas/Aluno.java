@@ -24,5 +24,29 @@ public class Aluno extends Pessoa {
         return "Média: "+Media+" Situação "+Situacao;
     }
 
+    public String alunosTurmma(String turma){
+        
+        //variavel
+        String alunos;
+
+        //seleção das turmas
+        switch (turma) {
+            case "301":
+                alunos = "-Tiago\n -Tigas\n -Pagodinho\n";
+                break;
+            case "201":
+                alunos = "-Merlin\n -Eremita\n -PagodinhoXXT\n";
+                break;
+            case "101":
+                alunos = "-Aldebaran\n -MU\n -Saga\n";
+                break;
+        
+
+            default:
+                alunos = "sem alunos para selecionar";
+                break;
+        }
+        return alunos;
+    }
 
 }
