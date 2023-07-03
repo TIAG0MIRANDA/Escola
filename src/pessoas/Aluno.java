@@ -9,15 +9,19 @@ public class Aluno extends Pessoa {
     //metodos
     public void salvarAluno(double media){
 
-        salvarPessoa();
+        super.salvarPessoa();
 
         Media = media;
         if (media>=6.0) {
-            Situacao = "APROVADO";
+            this.Situacao = "APROVADO";
         }
         else{
-            Situacao = "REPROVADO";
+            this.Situacao = "REPROVADO";
         }
+    }
+
+    public void registrarAluno(){
+        super.salvarPessoa();
     }
 
     public String exibirAluno(){

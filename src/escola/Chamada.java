@@ -15,24 +15,23 @@ public class Chamada { // class
         System.out.print(texto);
 
         //atribuir valor
-        Turma = turma;
+        this.Turma = turma;
 
         //metodo
-        selecionarTurma();
-        selecionarAlunos();
+        this.selecionarTurma();
+        this.selecionarAlunos();
     }
 
     public void selecionarTurma(){
-        String texto = "Turma "+Turma+" selecionada \n";
+        String texto = "Turma "+this.Turma+" selecionada \n";
         System.out.println(texto);
     }
 
     private void selecionarAlunos(){
 
         Aluno aluno = new Aluno();
-        System.out.println(aluno.alunosTurmma(Turma));
+        System.out.println(aluno.alunosTurmma(this.Turma));
          
     }
-
 
 }

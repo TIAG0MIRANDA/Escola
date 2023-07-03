@@ -1,5 +1,9 @@
-/*import pessoas.Aluno;
-import pessoas.Pessoa;*/
+
+/*
+import pessoas.Pessoa;
+import pessoas.Aluno;
+*/
+import curso.Curso;
 import escola.Chamada;
 
 public class Aplicacao {
@@ -9,18 +13,24 @@ public class Aplicacao {
 
         // instancia 
 
+
         /*
         Pessoa pessoa = new Pessoa();
         pessoa.registrar();
         System.out.println(pessoa.exibirPessoa());
         
+        Aluno aluno = new Aluno();
+        aluno.salvarAluno(6.5);
+        Aluno.registrarAluno();
+        System.out.println(Aluno.exibirAluno);
+
         
-        Aluno aluno = new Aluno(){
-            aluno.salvarAluno(6.5);
-            System.out.println(Aluno.exibirAluno);
-        }
-        */
-    
         Chamada chamada = new Chamada("Bom dia Pessoal\n", "301");
+        */
+        
+        Curso curso = new Curso();
+        curso.exibirCurso();
+        System.out.println(Curso.exibirCurso);
     }
+    
 }
