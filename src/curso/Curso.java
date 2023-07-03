@@ -23,7 +23,6 @@ public class Curso extends Componente {
     //get
     public String exibirCurso(){
         return "Nome do curso "+this.NomeCurso+"Cargahoraria "+this.CargaHoraria+"valor "+this.Valor;
-        System.out.println(curso.exibirCurso());
     }
 
 
