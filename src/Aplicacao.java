@@ -28,8 +28,8 @@ public class Aplicacao {
         Chamada chamada = new Chamada("Bom dia Pessoal\n", "301");
         */
         
-        Curso curso = new Curso("PHP", 60, 1400.00);
-        System.out.println(Curso.exibirCurso);
+        Curso curso = new Curso("PHP ", 60, 1400.00);
+        System.out.println(curso.exibirCurso());
     }
     
 }
