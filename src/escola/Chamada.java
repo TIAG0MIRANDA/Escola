@@ -23,8 +23,8 @@ public class Chamada { // class
         this.selecionarTurma();
         this.selecionarAlunos();
     
-        Curso = curso = new Curso (this.Curso, 60, 1200.0);
-        System.out.println(curso.exibirCurso);
+        Curso curso = new Curso (this.Curso, 60, 1200.0);
+        System.out.println(curso.exibirCurso());
     }
 
     public void selecionarTurma(){
