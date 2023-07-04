@@ -1,9 +1,10 @@
-
+//T.M
 /*
 import pessoas.Pessoa;
 import pessoas.Aluno;
-*/
+import curso.Componente;
 import curso.Curso;
+*/
 import escola.Chamada;
 
 public class Aplicacao {
@@ -24,12 +25,12 @@ public class Aplicacao {
         Aluno.registrarAluno();
         System.out.println(Aluno.exibirAluno);
 
-
-        Chamada chamada = new Chamada("Bom dia Pessoal\n", "301");
+        Curso curso = new Curso("PHP", 60, 1400.00);
+        System.out.println(curso.exibirCurso());
         */
         
-        Curso curso = new Curso("PHP ", 60, 1400.00);
-        System.out.println(curso.exibirCurso());
+        Chamada chamada = new Chamada("Bom dia Pessoal\n", "301");
+
     }
     
 }

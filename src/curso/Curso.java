@@ -1,7 +1,7 @@
 //T.M
 package curso; //super classe 
-public class Curso extends Componente {
-    
+public class Curso extends Componente { 
+        // sub class
     // atributos
     protected String NomeCurso;
     protected int CargaHoraria;
@@ -22,7 +22,8 @@ public class Curso extends Componente {
 
     //get
     public String exibirCurso(){
-        return "Nome do curso "+this.NomeCurso+"Cargahoraria "+this.CargaHoraria+"valor "+this.Valor;
+        
+        return "\nNome do curso: "+this.NomeCurso+"\nCargahoraria: "+this.CargaHoraria+"\nValor: "+this.Valor+"\nCurso"+super.selecionarComponente(this.Curso);
     }
 
 
